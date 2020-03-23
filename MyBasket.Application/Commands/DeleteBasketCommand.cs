@@ -31,7 +31,7 @@ namespace MyBasket.Application.Commands
 
         public DeleteBasketCommandCommandValidator()
         {
-            RuleFor(x => x.CustomerId).NotNull().NotEmpty().MustGuid();
+            RuleFor(x => x.CustomerId).MustNotNullOrEmpty().MustGuid();
         }
 
         #endregion Ctor
