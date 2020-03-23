@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBasket.Domain\MyBasket.Domain.csproj" />
+    <ProjectReference Include="..\MyBasket.Infrastructure\MyBasket.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
